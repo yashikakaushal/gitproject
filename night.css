@@ -1,0 +1,221 @@
+* {
+    Padding: 0;
+    Margin: 0;
+    Box-Sizing: Border-Box;
+    }
+    Body {
+    Height: 100vh;
+    Background-Color: #0a4b78;
+    Display: Flex;
+    Justify-Content: Center;
+    Align-Items: Center;
+    }
+    .Container {
+    Width: 367px;
+    Height: 500px;
+    Position: Relative;
+    Background: Linear-Gradient(To Bottom, #01263a 0%, #4f94d4 70%, #C5d9ed 100%);
+    Box-Shadow: 0 10px 20px Rgba(0, 0, 0, .3), 0 10px 10px Rgba(0, 0, 0, .3);
+    Border-Radius: 80px;
+    Overflow: Hidden;
+    }
+    .Disc-1 {
+    Position: Absolute;
+    Top: 24%;
+    Left: 1%;
+    Width: 359px;
+    Height: 358px;
+    Background: #72aee6;
+    Opacity: 0.2;
+    Border-Radius: 50%;
+    Animation: Glow Infinite 2s;
+    Animation-Fill-Mode: Both;
+    Animation-Direction: Alternate;
+    }
+    .Disc-2 {
+    Position: Absolute;
+    Top: 35%;
+    Left: 16%;
+    Width: 260px;
+    Height: 260px;
+    Background: #9ec2e6;
+    Opacity: 0.4;
+    Border-Radius: 50%;
+    Animation: Glow Infinite 2s;
+    Animation-Fill-Mode: Both;
+    Animation-Direction: Alternate;
+    }
+    .Disc-3 {
+    Position: Absolute;
+    Top: 43%;
+    Left: 27%;
+    Width: 180px;
+    Height: 180px;
+    Border-Radius: 50%;
+    Background: #F0f6fc;
+    Opacity: 0.6;
+    Animation: Glow Infinite 2s;
+    Animation-Fill-Mode: Both;
+    Animation-Direction: Alternate;
+    }
+    .Landscape-1 {
+    Position: Absolute;
+    Bottom: 119px;
+    Left: -7px;
+    Width: 250px;
+    Height: 70px;
+    Background-Color: #9ec2e6;
+    Transform: Rotate(9deg);
+    }
+    .Landscape-2 {
+    Position: Absolute;
+    Bottom: 90px;
+    Right: -7px;
+    Width: 350px;
+    Height: 90px;
+    Background-Color: #72aee6;
+    Transform: Rotate(-6deg);
+    }
+    .Landscape-3 {
+    Position: Absolute;
+    Bottom: 65px;
+    Left: -4px;
+    Width: 390px;
+    Height: 80px;
+    Background-Color: #4f94d4;
+    Transform: Rotate(5deg);
+    }
+    .Landscape-4 {
+    Position: Absolute;
+    Bottom: 50px;
+    Left: -4px;
+    Width: 400px;
+    Height: 70px;
+    Background-Color: #135e96;
+    Transform: Rotate(-4deg);
+    }
+    .Landscape-5 {
+    Position: Absolute;
+    Bottom: -10px;
+    Left: -6px;
+    Width: 370px;
+    Height: 90px;
+    Background-Color: #043959;
+    Transform: Rotate(5deg);
+    }
+    .Tree-1 {
+    Position: Absolute;
+    Top: 63%;
+    Left: 30%;
+    Height: 15px;
+    Width: 20px;
+    Background-Color: #59a5d8;
+    Clip-Path: Polygon(50% 0%, 22% 100%, 75% 100%);
+    Box-Shadow: 2px 0 2px 4px Rgba(0, 0, 0, .1);
+    }
+    .Tree-2 {
+    Position: Absolute;
+    Top: 65%;
+    Left: 80%;
+    Height: 20px;
+    Width: 13px;
+    Background-Color: #4f94d4;
+    Clip-Path: Polygon(50% 0%, 22% 100%, 75% 100%);
+    Box-Shadow: 2px 0 2px 4px Rgba(0, 0, 0, .1);
+    }
+    .Tree-3 {
+    Position: Absolute;
+    Top: 65%;
+    Left: 5%;
+    Height: 20px;
+    Width: 18px;
+    Background-Color: #386fa4;
+    Clip-Path: Polygon(50% 0%, 22% 100%, 75% 100%);
+    Box-Shadow: 2px 0 2px 4px Rgba(0, 0, 0, .1);
+    }
+    .Tree-4 {
+    Position: Absolute;
+    Top: 70%;
+    Left: 60%;
+    Height: 20px;
+    Width: 15px;
+    Background-Color: #386fa4;
+    Clip-Path: Polygon(50% 0%, 22% 100%, 75% 100%);
+    Box-Shadow: 2px 0 2px 4px Rgba(0, 0, 0, .1);
+    }
+    .Tree-5 {
+    Position: Absolute;
+    Top: 69%;
+    Left: 80%;
+    Height: 30px;
+    Width: 25px;
+    Background-Color: #133c55;
+    Clip-Path: Polygon(50% 0%, 22% 100%, 75% 100%);
+    Box-Shadow: 2px 0 2px 4px Rgba(0, 0, 0, .1);
+    }
+    .Tree-6 {
+    Position: Absolute;
+    Top: 74%;
+    Left: 11%;
+    Height: 45px;
+    Width: 35px;
+    Background-Color: #133c55;
+    Clip-Path: Polygon(50% 0%, 22% 100%, 75% 100%);
+    Box-Shadow: 2px 0 2px 4px Rgba(0, 0, 0, .1);
+    }
+    .Tree-7 {
+    Position: Absolute;
+    Top: 72%;
+    Left: 40%;
+    Height: 35px;
+    Width: 25px;
+    Background-Color: #133c55;
+    Clip-Path: Polygon(50% 0%, 22% 100%, 75% 100%);
+    Box-Shadow: 2px 0 2px 4px Rgba(0, 0, 0, .1);
+    }
+    .Star {
+    Position: Absolute;
+    Width: 2px;
+    Height: 2px;
+    Background-Color: White;
+    }
+    .S1 {
+    Top: 50px;
+    Left: 17px;
+    }
+    .S2 {
+    Top: 80px;
+    Left: 150px;
+    }
+    .S3 {
+    Top: 100px;
+    Left: 30px;
+    }
+    .S4 {
+    Top: 200px;
+    Left: 250px;
+    }
+    .S5 {
+    Top: 160px;
+    Left: 140px;
+    }
+    .S6 {
+    Top: 38px;
+    Left: 300px;
+    }
+    .S7 {
+    Top: 180px;
+    Left: 355px;
+    }
+    .S8 {
+    Top: 270px;
+    Left: 10px;
+    }
+    .S9 {
+    Top: 130px;
+    Left: 200px;
+    }
+    .S10 {
+    Top: 10px;
+    Left: 250px;
+    }
