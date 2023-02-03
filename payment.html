@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment From</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+    <table>
+    <h1>Payment From</h1>
+    <p style="color:black"># Required fields are followed by *</p>
+    <p>Name:*<input type="Name"  type="text" required></p>
+    <fieldset>
+        <legend>Gender</legend>
+    <p>Male*<input type="radio" name="Gender" id="male" required> Female<input type="radio" name="Gender" id="Female" required> Other<input type="radio" name="Gender" id="Other"> </p>
+</fieldset>
+<p>Address *<textarea name="address" id="Address" cols="100" rows="13" required ></textarea><p>
+    <p>Email:*<input type="Emails" name="email" id="email" required></p>
+    <p>Pincode*<input type="pincode" number="pincode" id="pincode" required></p>
+    <h2>Payment Information</h2>
+    <p>Card Type:*
+        <select name="Card type" id="card type" required>
+    <option value="">--Select a card type--</option>
+    <option value="visa">Visa</option>
+    <option value="Rupay">Rupay</option>
+    <option value="mastercard">Mastercard</option>
+    </select>
+    </p>
+    <p>Card number:*<input type="Card number" number="card number" id="card number" required></p>
+    <p>CVV:*<input type="Cvv" number="cvv" id="cvv" required></p>
+    <p>Experiment date:*<input type="date" id="date" required></p>
+    <input type="submit" value="PAYNOW">
+    <input type="reset" value="CANCEL">
+
+
+
+</table>
+</body>
+</html>
